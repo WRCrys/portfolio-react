@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import Resume from './resume';
+import Projects from './projects';
+import Contact from './contact';
 
 class Landing extends Component {
     render() {
@@ -39,6 +42,15 @@ class Landing extends Component {
                         </div>
                     </Cell>
                 </Grid>
+                <div style={{marginTop: '130px', marginBottom: '130px'}}>
+                    <Resume />
+                </div>
+                <div style={{marginTop: '130px', marginBottom: '130px'}}>
+                    <Projects />
+                </div>
+                <div style={{marginTop: '130px', marginBottom: '130px'}}>
+                    <Contact />
+                </div>
             </div>
         );
     }

@@ -11,47 +11,88 @@ class Projects extends Component {
         if (this.state.activeTab === 0) {
             return (
                 <div className="projects-grid">
-                    {/* React Project 1 */}
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '300px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }}>
-                            React Project #1
-                    </CardTitle>
-                        <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                        </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
+                    <Grid>
+                        {/* React Project 1 */}
+                        <Cell col={4}>
+                            <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                                <CardTitle style={{ color: '#fff', height: '300px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }}>
+                                    React Project #1
+                                </CardTitle>
+                                <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</CardText>
+                                <CardActions border>
+                                    <Button colored>GitHub</Button>
+                                </CardActions>
+                                <CardMenu style={{ color: '#fff' }}>
+                                    <IconButton name="share" />
+                                </CardMenu>
+                            </Card>
+                        </Cell>
 
-                    {/* React Project 2 */}
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '300px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }}>
-                            React Project #2
-                    </CardTitle>
-                        <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                        </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
+                        {/* React Project 2 */}
+                        <Cell col={4}>
+                            <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                                <CardTitle style={{ color: '#fff', height: '300px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }}>
+                                    React Project #2
+                                </CardTitle>
+                                <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</CardText>
+                                <CardActions border>
+                                    <Button colored>GitHub</Button>
+                                </CardActions>
+                                <CardMenu style={{ color: '#fff' }}>
+                                    <IconButton name="share" />
+                                </CardMenu>
+                            </Card>
+                        </Cell>
 
-                    {/* React Project 3 */}
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '300px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }}>
-                            React Project #3
-                    </CardTitle>
-                        <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                        </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
+                        {/* React Project 3 */}
+                        <Cell col={4}>
+                            <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                                <CardTitle style={{ color: '#fff', height: '300px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }}>
+                                    React Project #3
+                                </CardTitle>
+                                <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</CardText>
+                                <CardActions border>
+                                    <Button colored>GitHub</Button>
+                                </CardActions>
+                                <CardMenu style={{ color: '#fff' }}>
+                                    <IconButton name="share" />
+                                </CardMenu>
+                            </Card>
+                        </Cell>
+
+                        {/* React Project 4 */}
+                        <Cell col={4}>
+                            <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                                <CardTitle style={{ color: '#fff', height: '300px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }}>
+                                    React Project #4
+                                </CardTitle>
+                                <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</CardText>
+                                <CardActions border>
+                                    <Button colored>GitHub</Button>
+                                </CardActions>
+                                <CardMenu style={{ color: '#fff' }}>
+                                    <IconButton name="share" />
+                                </CardMenu>
+                            </Card>
+                        </Cell>
+                        
+                        {/* React Project 5 */}
+                        <Cell col={4}>                            
+                            <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                                <CardTitle style={{ color: '#fff', height: '300px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }}>
+                                    React Project #5
+                                </CardTitle>
+                                <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</CardText>
+                                <CardActions border>
+                                    <Button colored>GitHub</Button>
+                                </CardActions>
+                                <CardMenu style={{ color: '#fff' }}>
+                                    <IconButton name="share" />
+                                </CardMenu>
+                            </Card>
+                        </Cell>
+
+                    </Grid>
                 </div>
 
 
